@@ -1,0 +1,39 @@
+body{
+    background-image: url('wall.jpg');
+}
+
+
+#score{
+    background-color: teal;
+}
+
+#time-left{
+    background-color: teal;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    border-style:solid;
+    border-color: white;
+    
+
+
+
+}
+
+.grid {    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 818px;
+    height: 818px;
+}
+
+.mole {
+    background-image: url('mole.jpg');
+    background-size: cover;
+}
+
+
